@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofixClient {
     private static Retrofit instance;
-    private static String url ="https://api.openai.com/v1/";
+    private static String url ="";
 
     public static Retrofit getInstance(){
         if(instance == null){
